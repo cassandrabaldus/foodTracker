@@ -14,6 +14,7 @@
 		3F058F7320518E75000C7FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F058F7120518E75000C7FF1 /* LaunchScreen.storyboard */; };
 		3F058F7E20518E75000C7FF1 /* foodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F058F7D20518E75000C7FF1 /* foodTrackerTests.swift */; };
 		3F058F8920518E75000C7FF1 /* foodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F058F8820518E75000C7FF1 /* foodTrackerUITests.swift */; };
+		3F058F97205190A4000C7FF1 /* FoodRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F058F96205190A4000C7FF1 /* FoodRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F058F8420518E75000C7FF1 /* foodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F058F8820518E75000C7FF1 /* foodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodTrackerUITests.swift; sourceTree = "<group>"; };
 		3F058F8A20518E75000C7FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F058F96205190A4000C7FF1 /* FoodRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3F058F6820518E75000C7FF1 /* AppDelegate.swift */,
 				3F058F6A20518E75000C7FF1 /* ViewController.swift */,
 				3F058F6C20518E75000C7FF1 /* Main.storyboard */,
+				3F058F96205190A4000C7FF1 /* FoodRecorder.swift */,
 				3F058F6F20518E75000C7FF1 /* Assets.xcassets */,
 				3F058F7120518E75000C7FF1 /* LaunchScreen.storyboard */,
 				3F058F7420518E75000C7FF1 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F058F6B20518E75000C7FF1 /* ViewController.swift in Sources */,
+				3F058F97205190A4000C7FF1 /* FoodRecorder.swift in Sources */,
 				3F058F6920518E75000C7FF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
